@@ -1,0 +1,18 @@
+.khoi{
+	width: 900px;
+	height: 593px;
+	margin: 50px auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+  float: left;
+}
+#fieldList li{
+	width: 24%;
+}

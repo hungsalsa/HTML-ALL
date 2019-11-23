@@ -1,0 +1,37 @@
+.main-slider .owl-nav .owl-prev, .main-slider .owl-nav .owl-next {
+  top: 38%;
+  position: absolute;
+  background: #a5a5a5c2;
+  color: #f00;
+  font-size: 26px;
+}
+
+.main-slider .owl-stage .item {
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.main-slider .owl-stage .item img {
+  display: block;
+  height: 100%;
+  width: auto;
+  min-width: 100%;
+}
+.main-slider .owl-nav .owl-prev {
+  left: 5%;
+}
+.main-slider .owl-nav .owl-next {
+  right: 5%;
+}
+
+.owl-stage-outer * {
+  height: 100%;
+}
+
+.owl-carousel {
+  touch-action: manipulation;
+}
+
+/*# sourceMappingURL=style.css.map */

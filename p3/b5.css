@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.content{
+	width: 660px;
+	margin: 20px auto;
+}
+a{
+	text-decoration: none;
+	color: #545F61;
+}
+.title_box_cate{
+	background: url(images/line-thoitrang.png) left bottom repeat-x;
+	overflow: hidden;
+}
+.txt_main_cate{
+	float: left;
+    height: 35px;
+}
+.txt_main_cate a{
+	background: url("images/bg_arrow_tim.png") left 0px no-repeat;
+    color: #ed008c;
+    padding: 0 0 0 20px;
+    font: 400 22px/35px 'Roboto Slab',serif;
+}
+.txt_main_cate a span{
+	color: #650c8f;
+}
+.block_category_child{
+	padding: 8px 0 0 7px;
+	float: left;
+}
+.block_category_child a{
+	color: #666;
+    font: 400 12px arial;
+    padding: 8px 8px 6px;
+    background: url(images/bg_drash_1x10.gif) left 10px no-repeat;
+}
+.block_category_child a:first-child{
+	background: 0 0;
+}
+.item .main-box .left{
+	width: 33.3%;
+}
+.item .main-box img{
+	width: 100%;
+}
+.item .main-box h2:hover{
+	color: #F0008D;
+}
+
+.item .main-box .left h2{
+	background: url(images/bg_stran_thoitrang.png) 0 0 no-repeat;
+	    padding: 10px 3%;
+    width: 94%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    font: 700 14px/20px arial;
+}

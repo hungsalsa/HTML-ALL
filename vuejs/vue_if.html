@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>test Vuejs</title>
+	<style type="text/css">
+	.vuong{
+		width: 200px;
+		height: 200px;
+		background: #979696;
+		margin: 14px;
+		float: left;
+		transition: 1.2s;
+	}
+	.do{
+		background: red;
+		transform: skew(10deg, 10deg);
+		transition: 1.2s;
+	}
+	.xanh{
+		background: blue;
+	}
+</style>
+</head>
+<body>
+	<div id="app">
+		<p>You are doctor ?</p>
+		<p v-if="dieukien">Yes, I am <span>a doctor</span></p>
+		<p v-else>No, I am a teacher</p>
+		<button type="button" @click="dieukien = !dieukien" class="btn btn-default">Change condition</button>
+
+
+		<template v-if="dieukien">
+			<div>menu 1</div>
+			<div>menu 1</div>
+			<div>menu 1</div>
+			<div>menu 1</div>
+			<div>menu 1</div>
+		</template>
+
+		<p v-show="dieukien">test show element</p>
+	</div>
+</body>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script>
+	var app = new Vue({
+		el : '#app',
+		data: {
+			dieukien :true,
+		},
+		computed :{
+
+		},
+		methods : {
+			changeLink : function () {
+				return this.linkVal='google.com';
+			}
+		}
+	});
+</script>
+</html>

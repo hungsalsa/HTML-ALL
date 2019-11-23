@@ -1,0 +1,17 @@
+*{margin: 0;padding: 0;}
+
+li.nav-item.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.anhtrai {
+    height: 320px;
+}
+
+.navbar-light .navbar-nav.khungmenu .nav-link {
+    font-size: 15px;
+    padding: 14px 10px;
+}
+.khoiduoi{
+	margin-top: 20px;
+}

@@ -1,0 +1,9 @@
+*{margin: 0;padding: 0;}
+
+.navbar-light .navbar-nav.khungmenu .nav-link {
+    font-size: 15px;
+    padding: 14px 10px;
+}
+.khoiduoi{
+	margin-top: 20px;
+}

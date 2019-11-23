@@ -1,0 +1,7 @@
+*{margin: 0;padding: 0;font-size: 20px;}
+.main{
+	width: 1120px;
+	margin: 50px auto;
+	/*background: blue;*/
+	height: 1000px;
+}

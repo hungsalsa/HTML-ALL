@@ -1,0 +1,115 @@
+.main-slider .owl-nav .owl-prev, .main-slider .owl-nav .owl-next {
+  top: 38%;
+  position: absolute;
+  background: #a5a5a5c2;
+  color: #f00;
+  font-size: 26px;
+}
+
+body {
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #fc7511;
+}
+.header .header-main {
+  padding: 7px 0;
+}
+.header .header-main .logo img {
+  max-width: 100%;
+}
+.header .header-main .header_search {
+  padding: 12px 0;
+}
+.header .header-main .header_search .input-group-prepend {
+  border-radius: .25rem;
+}
+.header .header-main .header_search .input-group-text {
+  cursor: pointer;
+  padding: 0;
+  border-radius: 0 .25rem .25rem 0;
+}
+.header .header-main .header_search .input-group-text button {
+  background: none;
+}
+.header .header-main .header_search .input-group-text i.fa {
+  font-size: 24px;
+  color: #fc7511;
+}
+.header .header-main .hotline-cart {
+  padding: 10px 0;
+}
+.header .header-main .hotline-cart *, .header .header-main .hotline-cart .icon_hotline {
+  color: #fff;
+}
+.header .header-main .hotline-cart .cart, .header .header-main .hotline-cart .hotline {
+  text-align: center;
+  background-color: #d75d03;
+  border-radius: 10px;
+  padding: 1px 5px;
+  position: relative;
+  border: 1px solid transparent;
+}
+.header .header-main .hotline-cart .cart {
+  margin-left: 5px;
+}
+.header .header-main .hotline-cart .content_cart_header {
+  width: 84%;
+}
+.header .header-main .hotline-cart .icon_hotline {
+  font-size: 18px;
+  width: 14%;
+  line-height: 38px;
+}
+
+.main-slider .owl-stage .item {
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.main-slider .owl-stage .item img {
+  display: block;
+  height: 100%;
+  width: auto;
+  min-width: 100%;
+}
+.main-slider .owl-stage .item .description {
+  position: absolute;
+  top: 20%;
+  right: 17%;
+  width: 30%;
+  text-align: justify;
+  max-height: 71%;
+}
+.main-slider .owl-nav .owl-prev {
+  left: 5%;
+}
+.main-slider .owl-nav .owl-next {
+  right: 5%;
+}
+.main-slider .owl-dots {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+}
+.main-slider .owl-dots .owl-dot span {
+  width: 18px;
+  height: 18px;
+}
+
+.owl-stage-outer * {
+  height: 100%;
+}
+
+.owl-carousel {
+  touch-action: manipulation;
+}
+
+/*# sourceMappingURL=style.css.map */

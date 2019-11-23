@@ -1,0 +1,95 @@
+*{margin: 0;padding: 0;}
+.wrap{
+	width: 1120px;
+	margin: 0 auto;
+}
+.motkhoi {
+    width: 220px;
+    height: 220px;
+    background: url(images/fm.jpg);
+    box-shadow: inset 0 0 1px 20px #ffffff78;
+    border-radius: 50%;
+    position: relative;
+    perspective: 500px;
+    float: left;
+    margin: 30px;
+}
+.xanh {
+    width: 180px;
+    height: 180px;
+    background: url(images/b1.jpg) 0px 0px no-repeat;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transition: 0.4s;
+    backface-visibility: hidden; /* Xoay xong bien mat */
+    border-radius: 50%;
+    background-size: 100%;
+}
+.xanhc,.xanhc1{
+	width: 180px;
+    height: 180px;
+    background: url(images/b1.jpg) 0px 0px no-repeat;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+	transition: 1s;
+	backface-visibility: hidden; /* Xoay xong bien mat */
+    border-radius: 50%;
+    background-size: 100%;
+}
+.xanhc1{
+	background: url(images/b2.jpg) 0px 0px no-repeat;
+}
+.den {
+    background: black;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 37px;
+    transition: 0.4s;
+    transform: rotateY(-180deg);
+    border-radius: 50%;
+}
+.den.chu{
+	background: url(images/fm.jpg) -17px -24px no-repeat;
+    background-size: 138%;
+    transition: 1s;
+}
+.trang,.trangc {
+    width: 180px;
+    height: 180px;
+    background: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    box-shadow: inset 0 -1px 2px 2px rgba(0, 0, 0, 0.3803921568627451);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.trangc{
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+.motkhoi:hover .trang,.motkhoi:hover .trangc {
+    width: 220px;
+    height: 220px;
+    top: 0;
+    left: 0;
+    background:#ffffff4d
+}
+
+.motkhoi:hover .xanh,.motkhoi:hover .xanhc,.motkhoi:hover .xanhc1{
+	transform: rotateY(180deg);
+}
+
+.motkhoi:hover .den,.motkhoi:hover .denc{
+	transform: rotateY(0deg);
+}
+

@@ -1,0 +1,74 @@
+.wrap{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+*{margin: 0;padding: 0;}
+
+.ndchitiet {}
+
+.ndchitiet img {
+    border: 1px solid gray;
+    padding: 2px;
+    margin-right: 20px;
+    width: 20%;
+}
+
+.bonnd {
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.bonnut {
+    width: 900px;
+    margin: auto;
+    height: 58px;
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+.bonnd li {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 26px;
+    height: 290px;
+}
+
+.bonnd li:after {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    border: 0px solid #ddd;
+    position: absolute;
+    top: -9px;
+    left: 23px;
+    transform: rotateZ(45deg);
+    background: white;
+}
+.bonnd li:before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: -10px;
+    left: 23px;
+    transform: rotateZ(45deg);
+}
+
+.bonnut li {
+    margin: 10px;
+}
+li.active b.btn{
+    background: #ffc107;
+    color: #000;
+}

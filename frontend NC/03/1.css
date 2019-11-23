@@ -1,0 +1,84 @@
+*{padding: 0;margin: 0;}
+.khoi {
+    width: 480px;
+    height: 360px;
+    position: relative;
+    margin: 100px auto;
+    overflow: hidden;
+}
+.tieude {
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 40px;
+    color: black;
+    background: white;
+    padding: 10px 20px;
+}
+
+img.layer1 {
+    transition:  0.4s;
+}
+.khoi:hover .layer1 {
+    transform:scale(1.2);
+}
+.den {
+    width:  100%;
+    height: 100%;
+    position:  absolute;
+    top:  0;
+    left:  0;
+    transition:  0.4s;
+    background: #00000045;
+    opacity:  0;
+}
+.khoi:hover .den {
+    opacity:1;
+    transition-delay: 0.1s;
+}
+
+.chu1, .chu2, .chu3 {
+    position: absolute;
+    z-index: 2;
+    top: 90px;
+    left: 40px;
+    color: black;
+    background: white;
+    padding: 10px 20px;
+    transition: 0.5s;
+    transform: translateX(-400px);
+}
+.khoi .chu2 {
+    top: 142px;
+    transition-delay: 0.2s;
+}
+.khoi .chu3 {
+    top: 196px;
+    transition-delay: 0.3s;
+}
+.khoi:hover .chu1{
+    transform: translateX(0px);
+}
+.khoi:hover .chu2{
+    transform: translateX(6px);
+}
+.khoi:hover .chu3{
+    transform: translateX(12px);
+}
+
+/* Lamf them vien */
+.boder {
+    border: 1px solid #fff;
+    width: 84%;
+    height: 79%;
+    position: absolute;
+    top: 38px;
+    left: 33px;
+    opacity: 0;
+    transition: 0.4s;
+    /*transform: scale(0,1);*/
+}
+.khoi:hover .boder{
+	opacity: 1;
+	/*transform: scale(-0,1);*/
+}

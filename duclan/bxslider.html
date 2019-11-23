@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+
+</head>
+<body>
+	<div class="bxslider">
+		<div>I am a slide.</div>
+		<div>I am another slide.</div>
+	</div>
+
+	<!-- // Initialize the slider -->
+<script>
+  $(document).ready(function(){
+    // $('.slider').bxSlider();
+    $('.bxslider').bxSlider({
+    	mode:'vertical',
+    	auto: true,
+    	autoControls: true,
+    	stopAutoOnClick: true,
+    	pager: true,
+    	slideWidth: 1200
+    });
+  });
+</script>
+</body>
+</html>

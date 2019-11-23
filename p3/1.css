@@ -1,0 +1,55 @@
+@font-face {
+	font-family:Verdana;
+	src:url(../fonts/verdana.ttf);
+}
+*{padding: 0;margin: 0;}
+body{
+	font-family: roboto-regular;
+}
+.new-hot{
+	margin: 100px auto;
+}
+.new-hot,article.tinnho{
+	width: 676px;
+
+}
+.new-hot .top img{
+	width: 100%;
+	padding-bottom: 5px;
+}
+.new-hot .top a{
+	margin-bottom: 10px;
+	background: #DD3333;
+	padding: 5px;
+}
+.new-hot .top .descrip{
+	padding-top: 15px;
+}
+article.tinnho{
+	width: 212px;
+	height: 210px;
+	margin-right: 20px;
+	padding-top: 25px;
+	float: left;
+}
+/* article.tinnho:last-child{
+	padding-right: 0;
+} */
+.new-hot article.tinnho:nth-child(3n+1){
+	margin-right: 0;
+}
+article.tinnho img{
+	width: 100%;
+	padding-bottom: 15px;
+}
+.tinnho .thongtin{
+	padding-top: 5px;
+}
+a{
+	text-decoration: none;
+	color: #414141;
+	text-align: justify;
+}
+a:hover{
+	color: #F69696;
+}

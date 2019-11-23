@@ -1,0 +1,27 @@
+@font-face {
+	font-family:latobold;
+	src:url(vender/fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+	font-family:latolight;
+	src:url(vender/fonts/Lato-Light.ttf);
+}
+
+@font-face {
+	font-family:latohairlight;
+	src:url(vender/fonts/Lato-Hairline.ttf);
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	width: 1020px;
+	margin: 15px auto;
+}
+.template{
+	margin-bottom: 100px;
+}

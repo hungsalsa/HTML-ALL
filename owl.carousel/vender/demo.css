@@ -1,0 +1,58 @@
+.main-slider .owl-nav .owl-prev, .main-slider .owl-nav .owl-next {
+  top: 38%;
+  position: absolute;
+  background: #a5a5a5c2;
+  color: #f00;
+  font-size: 26px;
+}
+
+body {
+  margin: 0;
+}
+
+.main-slider .owl-stage .item {
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.main-slider .owl-stage .item img {
+  display: block;
+  height: 100%;
+  width: auto;
+  min-width: 100%;
+}
+.main-slider .owl-stage .item .description {
+  position: absolute;
+  top: 20%;
+  right: 17%;
+  width: 30%;
+  text-align: justify;
+  max-height: 71%;
+}
+.main-slider .owl-nav .owl-prev {
+  left: 5%;
+}
+.main-slider .owl-nav .owl-next {
+  right: 5%;
+}
+.main-slider .owl-dots {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+}
+.main-slider .owl-dots .owl-dot span {
+  width: 18px;
+  height: 18px;
+}
+
+.owl-stage-outer * {
+  height: 100%;
+}
+
+.owl-carousel {
+  touch-action: manipulation;
+}
+
+/*# sourceMappingURL=demo.css.map */

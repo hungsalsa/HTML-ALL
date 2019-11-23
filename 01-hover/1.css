@@ -1,0 +1,41 @@
+@font-face {
+	font-family:latobold;
+	src:url(vender/fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+	font-family:latolight;
+	src:url(vender/fonts/Lato-Light.ttf);
+}
+
+@font-face {
+	font-family:latohairlight;
+	src:url(vender/fonts/Lato-Hairline.ttf);
+}
+
+.wrap{
+	width: 1120px;
+	margin: 15px auto;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a.template{
+	margin-bottom: 1000px;
+}
+.front.face {
+	margin-top: 100px;
+    width: 330px;
+    height: 390px;
+    border-radius: 4px;
+}
+
+.front.face img{
+    width: 46%;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    box-shadow: 0 0 0 7px #dedede;
+    margin-bottom: 4px;
+}
+.front.face h4{font-family: latobold;}
